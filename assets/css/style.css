@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: lightblue;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* This affects the color of the navigation in top right */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This affects the paragraph sizing */
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* This is the crown jewel. Added padding and size of CoreFunctions altered height to make bottom right edge scale evenly with bottom left edge */
+
+.benefits {
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    float: right;
+    clear: both;
+    width: 20%;
+    height: 940px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*This replaced benefit-lead, benefit-brand, benefit-cost*/
+
+.benefitimages img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*This replaced social-media-marketing, online-reputation-management, search-engine-optimization classes*/
+.CoreFunctions {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*This replaced social-media-marketing, online-reputation-management, search-engine-optimization image sizing*/
+.CoreFunctions img {
+    max-height: 200px;
+}
+
+/*This replaced content h2, online-reputation-management h2, social-media-marketing h2*/
+
+.content {
+    margin-top: 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}   
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+    clear: both;
+}
