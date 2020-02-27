@@ -20,11 +20,23 @@ header h1 {
     font-size: 48px;
 }
 
+header nav {
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    right: 0;
+}
+
+header nav ul {
+    list-style-type:none;
+}
+
 header h1 .seo {
     color: lightblue;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,7 +44,7 @@ header div {
     font-size: 20px;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
